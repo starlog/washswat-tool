@@ -4,10 +4,25 @@
   "description": "Various tools for washswat platform by Felix Cho",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starlog/washswat-tool"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["washswat"],
+  "author": "Felix Cho",
+  "dependencies": {
+    "agentkeepalive": "^4.2.1",
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "ioredis": "^5.2.2",
+    "lodash": "^4.17.21",
+    "log4js": "^6.6.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.34",
+    "mongodb": "^4.8.1",
+    "node-cache": "^5.1.2",
+    "node-forge": "^1.3.1",
+    "mysql": "^2.18.1",
+    "qs": "^6.11.0"
+  }
 }
