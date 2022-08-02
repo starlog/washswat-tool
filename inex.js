@@ -13,7 +13,9 @@ let washswat_tool = {
         lap: require('./lib/util/lap'),
         util2: require('./lib/util/util2'),
         emergency: require('./lib/util/emergency')
-    }
+    },
+    api: require('./lib/api'),
+    config: require('./lib/config')
 };
 
 module.exports = washswat_tool;
