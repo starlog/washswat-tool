@@ -1,6 +1,6 @@
 {
   "name": "washswat-tool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Various tools for washswat platform by Felix Cho",
   "main": "index.js",
   "license": "MIT",
